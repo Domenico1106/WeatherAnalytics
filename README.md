@@ -12,7 +12,7 @@ A regression algorithm was implemented by which, using data from the years 2010 
 Finally, the dataset of effective values for 2014 was used to check the accuracy of the forecasts, obtaining very good results.
 
 ## Backend
-The previously mentioned Apache Storm was used to implement the application logic of the application.
+The previously mentioned Apache Storm was used to implement the application logic of the tool.
 The structure of the backend is shown in the following image where the Spouts are the sources that perform the data filtering operations by extracting the rainfall and temperatures of the 50 capitals respectively. The Bolts receive the data from the Spouts perform the various operations and output the results in the form of CSV data (the CSV output format was chosen for convenience, it is not a standard)
 
 ![Struttura Backend](./imgs/Screenshot%202024-09-07%20215822.png)
