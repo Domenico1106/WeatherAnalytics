@@ -28,6 +28,7 @@ A Utilities class was then created to write standard functionalities used in the
 
 ## Frontend
 The frontend was implemented in Python using the Dash library for implementing the web dashboard and the Plotly library for creating the charts based on the analysis results produced by the backend. The home page looks as shown in the following image
+
 ![homepage](./imgs/homepage.png)
 
 The *Pioggia* nav-item shows by default a histogram that for each month represents the average daily rainfall amount expressed in mm throughout the year under analysis in the US capitals. Below the graph are checklists each labelled with the name of a month. Initially, these checklists are all enabled, but the user is allowed to disable one or more months by ticking the corresponding checklists to view the trend over a subset of months (e.g. leave only the June, July and August checklists active to see the average rainfall trend over the summer season...). At the top there are two radio buttons. By default, the one that is ticked is labelled ‘Resoconto Annuale’, and if clicked, it shows the page just described. The second radio button labelled ‘Analisi Mensile’ takes us to another page showing a map of the United States with coloured dots on the US capitals. The month to which this chart refers is shown in a DropDownMenu which by default is placed on the month of January but when clicked opens a list of DropDownItems in which the user is allowed to view a specific month.
@@ -47,7 +48,14 @@ By default this page shows the data for the city of Albany, capital of the state
 At the bottom we have four charts: the first two show the wettest and the least rainy day during the year, the next two show the hottest and the coldest day.
 
 Finally, the *Regressione* nav-item shows two graphs, the first is a histogram showing for each month of 2014 the comparison between the prediction made by the regression algorithm, represented by a pink bar, and the actual value taken from that year's actual dataset, represented by a purple bar. The second graph is a scatter plot showing the linear regression between year and temperature from 1875 to 2013.
-Below the graphs, a table shows the comparison between the average temperature value predicted by the regression algorithm for the year 2014 and the actual value
+Below the graphs, a table shows the comparison between the average temperature value predicted by the regression algorithm for the year 2014 and the actual value.
+
+## Other Files
+- **converter.py**: this file was created to conver the dataset .txt original file into .csv file for the sake of convenience.
+- **Links Dataset.txt**: this file contains links from which to download the datasets that were used in the realisation of this project. In particular, after conversion via the converter.py file, it is recommended to put the result in the dataset folder.
+- **Relazione Progetto BigData.pdf**: contains the project report in Italian written by the team members.
+- **dataset**: this folder contains the file wban_state_capital.csv created by the team to extract the data of the capitals only and the datasets used for the linear regression as not all datasets were used for this analysis but only the monthly files.
+- **Info Dataset**: contains information on how to read data from datasets.
 ## Team Members
 - [Domenico Carreri](https://github.com/Domenico1106)
 - [Giuseppe Cavallo](https://github.com/Giugiugit)
