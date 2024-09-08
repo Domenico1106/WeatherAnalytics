@@ -1,0 +1,13 @@
+rainest_day; rainest_month; max_rain; less_rainy_day; less_rainy_month; min_rain; hotter_month; max_temp; colder_month; min_temp; month_rain; monthly_rain_value; month_temp; monthly_temp_value
+06; Dicembre; 53.09; 24; Gennaio; 1.52; Luglio; 34.44; Febbraio; -13.89; Gennaio; 3.88; Gennaio; 2.87
+-; -; -; -; -; -; -; -; -; -; Febbraio; 1.95; Febbraio; 2.70
+-; -; -; -; -; -; -; -; -; -; Marzo; 3.67; Marzo; 4.41
+-; -; -; -; -; -; -; -; -; -; Aprile; 1.55; Aprile; 14.31
+-; -; -; -; -; -; -; -; -; -; Maggio; 3.83; Maggio; 18.48
+-; -; -; -; -; -; -; -; -; -; Giugno; 6.02; Giugno; 22.69
+-; -; -; -; -; -; -; -; -; -; Luglio; 6.24; Luglio; 24.12
+-; -; -; -; -; -; -; -; -; -; Agosto; 3.66; Agosto; 22.89
+-; -; -; -; -; -; -; -; -; -; Settembre; 2.17; Settembre; 19.74
+-; -; -; -; -; -; -; -; -; -; Ottobre; 1.26; Ottobre; 14.31
+-; -; -; -; -; -; -; -; -; -; Novembre; 2.80; Novembre; 6.28
+-; -; -; -; -; -; -; -; -; -; Dicembre; 5.70; Dicembre; 3.85
