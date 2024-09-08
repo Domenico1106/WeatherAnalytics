@@ -1,0 +1,9 @@
+Main Dataset:
+Dataset 2013 fornito nella traccia dai professori: https://archive.org/details/QCLCD201312
+
+Dataset scaricati e usati per la regressione:
+Dataset 2010: https://archive.org/details/QCLCD201012
+Dataset 2011: https://archive.org/details/QCLCD201103
+Dataset 2012: https://archive.org/details/QCLCD201212
+Dataset 2014: https://archive.org/details/QCLCD201412   //usato solo per confrontare i valori reali con i valori di previsione ottenuti
+PDF anni 1875-2022: https://www.weather.gov/media/slc/ClimateBook/Annual%20Average%20Temperature%20By%20Year.pdf

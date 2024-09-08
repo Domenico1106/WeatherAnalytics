@@ -1,0 +1,67 @@
+body {
+    /*
+    background-image: url('https://img.freepik.com/free-photo/background-blue-sky-with-white-clouds_1048-2877.jpg?w=996&t=st=1697819843~exp=1697820443~hmac=c7240d294381202965eef5b6662cfb6ebe532b763b8422a0d242f63f57df6c6b');
+    */
+    background-image: url('https://photofocus.com/wp-content/uploads/2020/11/ChristianKneiseNeonNoirCover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*text-align: center;*/
+}
+
+.navigation {
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 30px;
+    /*
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    */
+    font-family: Impact, bold sans-serif;
+    color: white;
+    text-shadow: 0 0 8px #4c8a9e, 0 0 15px #4c8a9e, 0 0 20px #4c8a9e, 0 0 25px #4c8a9e;
+
+}
+
+.description{
+    font-size: 28px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 0 0 8px #4c8a9e, 0 0 15px #4c8a9e, 0 0 20px #4c8a9e, 0 0 25px #4c8a9e;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.credits{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #170229;
+    color: #BBBBBB;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+}
